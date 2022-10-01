@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div {
+        color: blue;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>CSS INTERVIEW QUESTIONS (Day 2) </h1>
+    
+    <b>Ques8. What is box sizing?</b>
+    <p>Ans.<br>
+        <div class="test">  
+ Box-sizing property defines how the width and height gets applied on an element. <br>
+ Default value of box-sizing is content-box, in this case the actual width of the box will be equal to the border and<br>
+ padding and width of the box ( Actual width : width + border + padding ). In case when box-sizing is set to be border-box,<br>
+ then the actual width will be equal to the width of the box itself. Means if we will increase the padding or border of <br>
+ the box then it will not increase the width of the box.<br>
+
+a)    content-box (Default)
+b)    border-box <br>
+
+-Used to change the height and width of element.<br>
+-Width and height of an element is calculated like this:<br>
+ width + padding + border = actual width of an element<br>
+ height + padding + border = actual height of an element<br>
+
+        </p><br><br>
+    </div>
+
+    <b>Ques9. What is animation delay?</b>
+    <p>Ans.<br>
+        <div class="test">
+        -This property tells us about the delay in the start of an animation.<br>
+        animation-delay value is defines is milliseconds(ms).<br>
+        This allows an animation to begin execution some time after it is applied.<br>
+        It is a sub-property of CSS animation. It defines how long the animation has to wait before starting. <br>
+        Using the animation-delay property, you define the delay by specifying the number of seconds or milliseconds<br>
+        it should take before playing.
+
+    </p><br><br>
+    </div>
+
+
+    <b>Ques10. Which property you will use to merge cells vertically in grid?</b>
+    <p>Ans.<br>
+        <div class="test">
+   (CSS grid-column proprty).grid-column-start and grid-column-end property can be used to merge cells vertically.<br>
+    It also has a shorthand i.e., grid-column: start/end. If you want to merge two elements in row then we will have<br>
+    to use grid-row property inside the child element. Remember these properties are applicable only to child elements<br>
+    not to parent elements.
+
+    </p><br><br>
+    </div>
+
+
+    <b>Ques11. Which property you will use to merge cells horizontally in grid?</b>
+    <p>Ans.<br>
+        <div class="test">
+     grid-row-start and grid-row-end property can be used to merge cells horizontally. It <br>
+     also has a shorthand i.e., grid-row: grid-row-start/grid-row-end;<br>
+     
+    </p><br><br>
+</div>
+
+    <b>Ques12. Explain CSS box model</b>
+    <p>Ans.<br>
+        <div class="test">
+        The box model in CSS is a set of rules that determine how your web page is rendered on the internet. <br>
+        In this model, a rectangular box is generated for HTML elements. This box consists of first content, <br>
+        then padding, then border, and finally margin.<br>
+
+    </p><br><br>
+</div>
+
+    <b>ques13. What is the diffrence between display none and visibility hidden?</b>
+    <p>Ans.<br>
+        <div class="test">
+    display: none; <br>
+    The display: none property is used to hide elements without deleting them. It does not take up any space.<br>
+    In this case, the tag is removed from the page, which allows other elements to fill in.<br>
+    visibility: hidden;<br>
+    The visibility: hidden property also hides an element, but affects the layout i.e., it takes up the space.<br>
+    The element is hidden from view but not the page flow. <br>
+    -VISIBILTY HIDDEN- It is not visible but gets up its original space whereas,<br>
+    -DISPLAY NONE- It is hidden takes no space</p><br>
+</div>
+</body>
+</html>
